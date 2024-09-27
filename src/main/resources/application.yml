@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: sandbox-payment
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+server:
+  port: 8081
+sandbox-payment-client:
+  url: 'https://engine-sandbox.pay.tech'
+  path: '/api/v1/payments'
+  token: 'test'
+
